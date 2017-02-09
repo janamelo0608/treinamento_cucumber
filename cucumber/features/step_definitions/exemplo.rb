@@ -1,12 +1,13 @@
 Dado(/^que eu acesse o site da netshoes$/) do
 visit"/"
-sleep 20
+sleep 10
 end
 
 Quando(/^eu clicar em ajuda$/) do
-  pending # Write code here that turns the phrase above into concrete actions
+  find(:css, '#help-link').click
 end
 
 Entao(/^vai mostrar a pagina de ajuda$/) do
-  pending # Write code here that turns the phrase above into concrete actions
+  sleep 10
+  puts 'Uhullll'
 end
