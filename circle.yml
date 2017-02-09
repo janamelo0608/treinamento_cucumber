@@ -20,5 +20,4 @@ dependencies:
    - bundle install
 test:
  override:
-   - cd cucumber; cucumber --@login_sucesso
    - cd cucumber; cucumber --@login_invalido
