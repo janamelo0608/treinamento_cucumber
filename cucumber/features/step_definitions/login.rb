@@ -4,8 +4,8 @@ sleep 10
 end
 
 E(/^passar usuario e senha validos$/) do
-find(:css, '#email-cpf').set("janaina.melo@netshoes.com")
-find(:css, '#password').set("netshoes")
+#find(:css, '#email-cpf').set("helloword@netshoes.com")
+#find(:css, '#password').set("funfa")
 
 end
 

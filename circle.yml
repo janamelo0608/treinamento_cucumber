@@ -21,3 +21,5 @@ dependencies:
 test:
  override:
    - cd cucumber; cucumber --@login_invalido
+   - cd cucumber; cucumber --tags @cadastro
+   
